@@ -1,0 +1,2 @@
+"use strict";var header=document.querySelector("header");window.addEventListener("scroll",(function(){var e=window.scrollY>0;header.classList.toggle("on-scroll",e)}));var digits=document.querySelectorAll(".digit");digits.forEach((function(e){e.innerText="0",function t(){var r=Number(e.getAttribute("data-target")),n=Number(e.innerText),i=r/1e3;n<r?(e.innerText="".concat(Math.ceil(n+i)),setTimeout(t,1)):e.innerText=r}()}));
+//# sourceMappingURL=main.js.map
